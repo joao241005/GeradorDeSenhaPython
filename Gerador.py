@@ -9,7 +9,7 @@ acentos = ['!','@','#','%','&','*','?','$','°','º','§','_','|','-','~']
 
 # formato da senha
 def config():
-    # tamanho = int(input("Digite a quantidade de caracteres que você deseja que sua senha tenha:\n"));
+    tamanho = int(input("Digite a quantidade de caracteres que você deseja que sua senha tenha:\n"));
     caracteres = str(input("Sua senha terá caracteres especiais? Digite 'sim' ou 'não': \n"))
     tamanho = int(input("Digite o maximo de caracteres que sua senha deve conter:\n"))
     return caracteres, tamanho
